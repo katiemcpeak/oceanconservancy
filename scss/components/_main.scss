@@ -1,0 +1,174 @@
+html {
+    font-family: $montserrat;
+}
+
+.header-background {
+    background-color: $white;
+    max-height: 10em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.icon-icons-ocean-conservany-07 {
+    text-decoration: none;
+    font-size: 11em;
+    display: inline-block;
+    color: $teal-blue;
+}
+
+.nav {
+    list-style-type: none;
+    text-align: right;
+    position: absolute;
+    right: 0em;
+    top: 0em;
+    margin-top: 2.5em;
+    margin-right: 1.75em;
+}
+
+.nav li {
+    font-family: $montserrat;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    text-decoration: none;
+    padding-top: 1em;
+    padding-right: 2.5em;
+    margin: 0 auto;
+    font-size: .6em;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  color: $black;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+
+  color: $grey;
+} 
+
+.donate-button a,
+.donate-button a:link,
+.donate-button a:visited {
+  color: $orange;
+  text-decoration: none;
+}
+
+.donate-button a:hover,
+.donate-button a:focus,
+.donate-button a:active,
+.donate-button .nav-current,
+.donate-button .nav-current:link,
+.donate-button .nav-current:visited {
+
+  color: $grey;
+} 
+
+.homepage-billboard {
+    position: absolute;
+    background-image: url("../images/ocean-photo-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.social-media-icons {
+    font-size: 3em;
+    text-align: center;
+    margin-top: .5em;
+    color: $white;
+}
+
+.footer-background {
+    background-color: $dark-green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.copyright-p1 {
+    color: $white;
+    font-size: .6em;
+    text-align: center;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.copyright-p2 {
+    color: $white;
+    font-size: .6em;
+    text-align: center;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 48em) {
+    
+    .h1-oc {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 72em) {
+    
+    .h1-oc {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 48em) /* TABLET */ {
+  
+    .homepage-billboard {
+        height: 45em;
+    }
+    
+}
+
+@media only screen and (min-width: 72em) /* DESKTOP */ {
+    
+    .header-background {
+        max-height: 15em;
+    } 
+    
+    .homepage-billboard {
+        height: 50em;
+    }
+    
+    .h1-oc {
+        font-family: $montserrat;
+        color: $teal-blue;
+        font-size: 2.25em;
+        top: 0;
+        margin-top: 1.45em;
+        margin-left: 4em;
+        position: absolute;
+    } 
+    
+    .nav {
+        display: flex;
+        padding-top: 7em;
+        text-align: center;
+    }
+    
+    .nav li {
+        font-size: .9em;
+        padding-left: 6em;
+    }
+}
