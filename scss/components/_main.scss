@@ -120,6 +120,25 @@ html {
     margin-bottom: 2em;
 }
 
+.about-h2 {
+    color: $light-green;
+    font-size: 2.25em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about {
+    padding-top: 42em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-bottom: 5em;
+}
+
+.about-p {
+    font-family: $quicksand;
+    text-align: center;
+}
+
 @media only screen and (max-width: 48em) {
     
     .h1-oc {
