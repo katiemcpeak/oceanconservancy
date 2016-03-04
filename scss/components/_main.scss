@@ -188,12 +188,18 @@ html {
     
     .nav {
         display: flex;
-        padding-top: 7em;
+        padding-top: 1.75em;
         text-align: center;
     }
     
     .nav li {
-        font-size: .9em;
-        padding-left: 6em;
+        font-size: .7em;
+        padding-left: 3em;
+    }
+    
+    .about {
+        padding-top: 50em;
+        margin-left: 20em;
+        margin-right: 20em;
     }
 }
