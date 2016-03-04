@@ -96,7 +96,8 @@ html {
 .footer-background {
   background-color: #005a5a;
   position: absolute;
-  bottom: 0;
+  overflow: hidden;
+  clear: both;
   left: 0;
   width: 100%;
 }
