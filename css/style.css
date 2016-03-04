@@ -5,8 +5,8 @@ html {
 
 .header-background {
   background-color: #ffffff;
-  max-height: 10em;
   position: absolute;
+  max-height: 10em;
   top: 0;
   left: 0;
   width: 100%;
