@@ -5,7 +5,8 @@ html {
 }
 
 .header-background {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 11em;
   position: absolute;
   top: 0;
   left: 0;
