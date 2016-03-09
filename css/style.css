@@ -87,6 +87,23 @@ html {
   z-index: -1;
 }
 
+.billboard-text {
+  font-size: 4.25em;
+  padding-top: 1.5em;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.billboard-subtext {
+  font-size: 1em;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
 .social-media-icons {
   font-size: 3em;
   text-align: center;
@@ -134,8 +151,27 @@ html {
   padding-bottom: 5em;
 }
 
-.about-p {
+.p {
   font-family: Quicksand, sans-serif;
+  text-align: center;
+}
+
+.titles-main {
+  padding-top: 42em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding-bottom: 3em;
+}
+
+.titles {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.h2-titles {
+  color: #00a998;
+  font-size: 1.75em;
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -159,6 +195,12 @@ html {
     padding-top: 45em;
     margin-left: 5em;
     margin-right: 5em;
+  }
+  .titles-main {
+    padding-top: 45em;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+    padding-bottom: 3em;
   }
 }
 
@@ -191,5 +233,11 @@ html {
     padding-top: 50em;
     margin-left: 20em;
     margin-right: 20em;
+  }
+  .titles-main {
+    padding-top: 50em;
+    margin-left: 20em;
+    margin-right: 20em;
+    padding-bottom: 3em;
   }
 }
