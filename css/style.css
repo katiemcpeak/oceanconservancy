@@ -87,9 +87,65 @@ html {
   z-index: -1;
 }
 
+.solutions-billboard {
+  position: absolute;
+  background-image: url("../images/ocean-photo-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40em;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.visions-billboard {
+  position: absolute;
+  background-image: url("../images/ocean-photo-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40em;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.action-billboard {
+  position: absolute;
+  background-image: url("../images/ocean-photo-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40em;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.donate-billboard {
+  position: absolute;
+  background-image: url("../images/ocean-photo-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40em;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
 .billboard-text {
-  font-size: 4.25em;
-  padding-top: 1.5em;
+  font-size: 2em;
+  padding-top: 10em;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -97,7 +153,9 @@ html {
 }
 
 .billboard-subtext {
-  font-size: 1em;
+  font-size: .75em;
+  margin-left: 1em;
+  margin-right: 1em;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -145,7 +203,7 @@ html {
 }
 
 .about {
-  padding-top: 42em;
+  padding-top: 10em;
   margin-left: 1.5em;
   margin-right: 1.5em;
   padding-bottom: 5em;
@@ -154,10 +212,11 @@ html {
 .p {
   font-family: Quicksand, sans-serif;
   text-align: center;
+  padding-bottom: 2em;
 }
 
 .titles-main {
-  padding-top: 42em;
+  padding-top: 13em;
   margin-left: 1.5em;
   margin-right: 1.5em;
   padding-bottom: 3em;
@@ -191,16 +250,43 @@ html {
   .homepage-billboard {
     height: 45em;
   }
+  .solutions-billboard {
+    height: 45em;
+  }
+  .visions-billboard {
+    height: 45em;
+  }
+  .action-billboard {
+    height: 45em;
+  }
+  .donate-billboard {
+    height: 45em;
+  }
   .about {
-    padding-top: 45em;
+    padding-top: 14em;
     margin-left: 5em;
     margin-right: 5em;
   }
   .titles-main {
-    padding-top: 45em;
+    padding-top: 14em;
     margin-left: 3.5em;
     margin-right: 3.5em;
     padding-bottom: 3em;
+  }
+  .billboard-text {
+    font-size: 2.75em;
+    padding-top: 8em;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+  .billboard-subtext {
+    font-size: .75em;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
   }
 }
 
@@ -209,7 +295,19 @@ html {
     max-height: 15em;
   }
   .homepage-billboard {
-    height: 50em;
+    height: 100vh;
+  }
+  .solutions-billboard {
+    height: 100vh;
+  }
+  .visions-billboard {
+    height: 100vh;
+  }
+  .action-billboard {
+    height: 100vh;
+  }
+  .donate-billboard {
+    height: 100vh;
   }
   .h1-oc {
     font-family: Montserrat, sans-serif;
@@ -229,13 +327,28 @@ html {
     font-size: .7em;
     padding-left: 3em;
   }
+  .billboard-text {
+    font-size: 4.25em;
+    padding-top: 4.75em;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+  .billboard-subtext {
+    font-size: 1em;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
   .about {
-    padding-top: 50em;
+    padding-top: 13em;
     margin-left: 20em;
     margin-right: 20em;
   }
   .titles-main {
-    padding-top: 50em;
+    padding-top: 13em;
     margin-left: 20em;
     margin-right: 20em;
     padding-bottom: 3em;
