@@ -7,38 +7,40 @@ layout: default
     <p class="billboard-subtext">Help us with the fight to protect oceans everywhere</p>
 </header>
 
-<header class="donate-billboard" id="top"></header>
+<header class="donate-billboard" id="top">
+<div class="layer-donate"></div>
+</header>
 
 <div class="titles-main">
     <h2 class="h2-titles">Your Donation Will Make a Difference</h2>
     <p class="p">Ocean Conservancy holds high ratings from charity watchdog groups and meets all 20 BBB charity standards, so you can be sure your dollars are spent wisely to support ocean conservation.</p>
 </div>
 
-<form class="form" action="thankyou.html" method="post">    
+<form class="form" action="{{site.baseurl}}/thankyou/" method="post">    
 
-<h2 class="h2-titles"></h2>    
+<h2 class="h2-titles">Donate!</h2>    
     
-<div class="pad-b" >
+<div class="name">
  <label for="name">Name</label>    
  <input type="email" id="name">
 </div>   
     
-<div class="pad-b" >
+<div class="email">
  <label for="email">E-mail</label>    
  <input type="email" id="email">
 </div>  
   
-<div class="pad-b" >
- <label for="tel">Telephone</label>    
+<div class="tel">
+ <label for="tel">Phone</label>    
  <input type="tel" id="tel">
 </div> 
     
 <div>
  <input type="checkbox" id="terms">
- <label class="pad-b" for="terms">Do you accept our terms and conditions?</label>
+ <label for="terms">Do you accept our terms and conditions?</label>
 </div> 
     
-<div class="pad-b">
+<div>
  <label for="fav-color">How much would you like to donate?</label>
  <select id="fav-color">
   <option>10$</option> 
@@ -48,7 +50,7 @@ layout: default
 </div>
  
 <div class="send">
- <button type="submit"><a href="thankyou.html">Send!</a></button>
+ <button type="submit"><a href="{{site.baseurl}}/thankyou/">Send!</a></button>
 </div> 
 </div>
     
