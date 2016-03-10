@@ -234,6 +234,10 @@ html {
   text-align: center;
 }
 
+.form {
+  text-align: center;
+}
+
 button {
   font-size: 1em;
   border: 3px solid #00a998;
