@@ -234,6 +234,64 @@ html {
   text-align: center;
 }
 
+button {
+  font-size: 1em;
+  border: 3px solid #CD853F;
+  background-color: white;
+  font-family: Montserrat, sans-serif;
+  color: #CD853F;
+  font-weight: bold;
+  border-radius: 16px;
+  padding: 0.5em 0.75em;
+  align-content: center;
+}
+
+button:hover {
+  background-color: #CD853F;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:active {
+  background-color: red;
+}
+
+input[type="email"] {
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 1.125em;
+  font-family: serif;
+  padding: 0.5em;
+  max-width: 15rem;
+}
+
+input[type="name"] {
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 1.125em;
+  font-family: serif;
+  padding: 0.5em;
+  max-width: 15rem;
+}
+
+input[type="tel"] {
+  border: 1px solid #000;
+  border-radius: 3px;
+  font-size: 1.125em;
+  font-family: serif;
+  padding: 0.5em;
+  max-width: 15rem;
+}
+
+input[type="email"]:focus {
+  outline: 3px solid brown;
+  background-color: #fff;
+}
+
+.send {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 48em) {
   .h1-oc {
     display: none;
