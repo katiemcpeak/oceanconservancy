@@ -282,6 +282,15 @@ html {
     text-align: center;
 }
 
+.solutions-div {
+    padding-top: 12em;
+}
+
+.solutions-bucket {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
 .form {
     text-align: center;
 }
@@ -422,6 +431,17 @@ input[type="email"]:focus {
         text-align: center;
         text-transform: uppercase;
         letter-spacing: .2em;
+    }
+    
+    .solutions-group-placement {
+        display: inline-block;
+        position: relative;
+    }
+    
+    .solutions-bucket {
+        width: 33.333%;
+        float: left;
+        display: inline-block;
     }
 
 }
