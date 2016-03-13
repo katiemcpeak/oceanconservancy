@@ -127,6 +127,7 @@ html {
   left: 0;
   overflow: hidden;
   z-index: -1;
+  margin-bottom: 3em;
 }
 
 .donate-billboard {
@@ -207,11 +208,11 @@ html {
 
 .footer-background {
   background-color: #005a5a;
-  position: absolute;
   overflow: hidden;
   clear: both;
   left: 0;
   width: 100%;
+  padding: 0;
 }
 
 .copyright-p1 {
@@ -264,7 +265,7 @@ html {
 }
 
 .titles-main {
-  padding-top: 13em;
+  padding-top: 20em;
   margin-left: 1.5em;
   margin-right: 1.5em;
   padding-bottom: 3em;
@@ -280,6 +281,7 @@ html {
   font-size: 1.75em;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 2em;
 }
 
 .solutions-div {
@@ -289,6 +291,7 @@ html {
 .solutions-bucket {
   width: 100%;
   margin-bottom: 1em;
+  padding-top: 3em;
 }
 
 .form {
@@ -370,6 +373,11 @@ input[type="email"]:focus {
 @media only screen and (max-width: 48em) {
   .h1-oc {
     display: none;
+  }
+  .solutions-bucket {
+    width: 100%;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
   }
 }
 
