@@ -23,6 +23,31 @@ html {
     color: $teal-blue;
 }
 
+.icon-icons-ocean-conservany-05 {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.icon-icons-ocean-conservany-03 {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.icon-icons-ocean-conservany-04 {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.icon-icons-ocean-conservany-02 {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.icon-icons-ocean-conservany-01 {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 .nav {
     list-style-type: none;
     text-align: right;
@@ -163,6 +188,20 @@ html {
     z-index: -1;
 }
 
+.login-billboard {
+    position: absolute;
+    background-image: url("../images/ocean-photo-6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
 .billboard-text {
     font-size: 2em;
     padding-top: 10em;
@@ -233,6 +272,7 @@ html {
     text-align: center;
     margin-top: .5em;
     color: $white;
+    text-decoration: none;
 }
 
 .footer-background {
@@ -441,7 +481,11 @@ input[type="email"]:focus {
         height: 45em;
     }
     
-     .thankyou-billboard {
+    .thankyou-billboard {
+        height: 45em;
+    }
+    
+    .login-billboard {
         height: 45em;
     }
     
@@ -449,6 +493,10 @@ input[type="email"]:focus {
         padding-top: 14em;
         margin-left: 5em;
         margin-right: 5em;
+    }
+    
+    .login {
+        padding-top: 45em;
     }
     
     .titles-main { 
@@ -516,6 +564,10 @@ input[type="email"]:focus {
     }
     
     .thankyou-billboard {
+        height: 100vh;
+    }
+    
+    .login-billboard {
         height: 100vh;
     }
     
