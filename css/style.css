@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Quicksand);
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: Montserrat, sans-serif;
 }
@@ -432,6 +437,7 @@ input[type="email"]:focus {
   .solutions-group-placement {
     display: inline-block;
     position: relative;
+    padding-top: 10em;
   }
   .solutions-bucket {
     width: 33.333%;
